@@ -7,10 +7,10 @@
     justify-content: space-between;
     height: 15%;
     border-bottom: 2px solid black;
-    background-image: url(/IPL-edyoda/Src/hi-tech-concepts-on-blue-background-header.jpg);
+    background-image: url(./Src/hi-tech-concepts-on-blue-background-header.jpg);
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.349);
-    background-image: url(/IPL-edyoda/Src/hi-tech-concepts-on-blue-background-header.jpg);
+    background-image: url(./Src/hi-tech-concepts-on-blue-background-header.jpg);
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
 }
