@@ -607,7 +607,7 @@ function currentLi(element) {
   let selectData = element.textContent;
   inputBox.value = selectData;
   icon.onclick = () => {
-    window.open(`./team.html?name=${element.textContent}`, "_self");
+    window.open(`../team.html?name=${element.textContent}`, "_self");
   };
   searchBar.classList.remove("active");
 }
@@ -639,5 +639,5 @@ for (var i = 0; i < TeamDetails.length; i++) {
 function teamcardclick(x) {
   var ClCard = TeamDetails[x].sName;
 
-  window.open(`./team.html?name=${ClCard}`, "_self");
+  window.open(`../team.html?name=${ClCard}`, "_self");
 }
