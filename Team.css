@@ -1,0 +1,131 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Teamnav{
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    border-bottom: 2px solid black;
+    background-image: url(/IPL-edyoda/Src/hi-tech-concepts-on-blue-background-header.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.349);
+    background-image: url(/IPL-edyoda/Src/hi-tech-concepts-on-blue-background-header.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+
+.ipllogoi{
+    width: 40%;
+    height: 105%;
+    margin-left: 90px;
+}
+
+.Hombtn{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    right: 80px;
+    top: 20px;
+    box-shadow: 5px 5px 10px gold;
+    border: 2px solid rgb(17, 17, 17);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.teamlogoo{
+width: 300px;
+border-radius: 10px;
+
+}
+
+.teamcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    
+}
+
+.teamcon :hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.teamcondet{
+    border-left: 2px solid rgb(255, 0, 0);
+    border-right: 2px solid rgb(255, 0, 0);
+    padding: 10px 25px;
+    line-height:35px;
+    margin-top: 10px;
+    
+}
+
+.tname{
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: blue;
+}
+
+.capnam{
+    margin-top: 5px;
+}
+
+.man{
+    text-align: center;
+}
+
+.twon{
+    text-align: center;
+}
+
+#Playercontainer{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-left: 60px;
+    
+}
+
+.box{
+    width: 30%;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.pimage{
+    width: 200px;
+    margin-left: 90px;
+    
+}
+
+.p1{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 100px;
+    width: 200px;
+    border-bottom: 2px solid black;
+}
+
+.p2{
+    font-size: 16px;
+    line-height: 45px;
+    margin-top:5px ;
+    text-align:center;
+}
+
+.playerdeta{
+    /* border-right: 3px solid rgb(55, 9, 221); */
+    border-left: 3px solid rgb(55, 9, 221);
+    
+}

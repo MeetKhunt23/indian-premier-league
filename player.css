@@ -1,0 +1,49 @@
+.player-img{
+    width: 300px;
+    margin-left: 100px;
+    transition:cubic-bezier(0.215, 0.610, 0.355, 1);
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.raw1{
+    
+display: flex;
+flex-direction: column;
+line-height: 50px;
+margin-right: 120px;
+margin-left: 30px;
+text-align: center;
+
+}
+
+.raw2{
+    font-weight:700;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    text-align: center;
+   
+    
+}
+
+.pdet{
+    display: flex;
+margin-left: 50px;
+
+}
+
+#playerdetailes{
+ margin-left: 30%;
+ margin-bottom: 20px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.navbar{
+position: fixed;
+}

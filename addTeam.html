@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADD TEAM</title>
+    <link rel="stylesheet" href="addTeam.css" />
+    <link rel="stylesheet" href="Team.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="Teamnav">
+        <div class="Teamlogo">
+          <img
+            src="/IPL-edyoda/Src/download.png"
+            alt="iplLogo"
+            class="ipllogoi"
+          />
+        </div>
+        <div>
+          <a href="./index.html"><button class="Hombtn">Home</button></a>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div>
+        <h1 class="hadteam">Add Team</h1>
+        <form id="addform">
+          <p >Team Name</p>
+          <input id="in1" type="text"class="adt" name="teamName" placeholder="Enter Team Name " required />
+          <p>Captain Name</p>
+          <input id="in2" type="text"name="teamCaptain" placeholder="Enter Team Captain  Name "class="adt" required/>
+          <p>Team logo Link</p>
+          <input id="in3" type="text" name="logoUrl" placeholder="Enter Logo URL " class="adt" required/>
+          <p>No of Times Champions</p>
+          <input id="in4" type="number" name="wonCount" maxlength="1" placeholder="Enter Won Count " class="adt" required />
+          <p>Star Batsman</p>
+          <input id="in5" type="text" name="topBatsman" placeholder="Enter Star Batsman  Name " class="adt" required />
+          <p>Star Bowler</p>
+          <input id="in6" type="text" name="topBowler" placeholder="Enter Star Bowler Name " class="adt" required />
+          <br>
+          <button type="submit" class="adbtn">Add team</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div>
+        <h3>About</h3>
+        <ul>
+          <li>About Us</li>
+          <li>Anti Corruption Policy</li>
+          <li>Anti Doping Policy</li>
+          <li>TUE Application Form</li>
+          <li>Anti Discrimination Policy</li>
+          <li>News Access Regulations</li>
+        </ul>
+      </div>
+      <div>
+        <h3>GUIDELINES</h3>
+        <ul>
+          <li>IPL Code Of Conduct For Match Officials</li>
+          <li>Brand And Protection Guidelines</li>
+          <li>Governing Council</li>
+          <li>Match Playing Conditions</li>
+          <li>PMOA Minimum Standard</li>
+          <li>Suspect Action Policy</li>
+        </ul>
+      </div>
+      <div>
+        <h3>CONTACT</h3>
+        <ul>
+          <li>Contact Us</li>
+          <li>Sponsorship</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+    </footer>
+    <script type="text/javascript" src="addTeam.js"></script>
+  </body>
+</html>

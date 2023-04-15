@@ -1,0 +1,15 @@
+#addplayerform{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+   
+
+}
